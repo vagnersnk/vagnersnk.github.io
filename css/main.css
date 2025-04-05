@@ -1,0 +1,84 @@
+/* IMAGEM DE FUNDO */
+body {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    display: flex;
+    background-image: url('images/fundo_01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center; 
+    align-items: center;     
+    font-family: Arial, sans-serif;
+
+  }
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    color: white;
+    width: 250px;
+    height: 300px;
+    margin-top: 170px;
+    position: relative;
+    z-index: 1;
+
+
+    
+  }
+  
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+  }
+  
+.card h2 {
+    margin: 10px 0 5px;
+    color: #204dbd;
+  }
+  
+.card p{
+    color: #204dbd;
+   
+}
+
+.card a {
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #204dbd;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    flex-shrink: 1
+  }
+  
+.card a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #974053;
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(86, 15, 202, 0.4);
+  }
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap; /* Se não couber, quebra para baixo */
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
