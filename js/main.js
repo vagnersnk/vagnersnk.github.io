@@ -1,13 +1,13 @@
 const projects = [
     {
       image: "../images/projeto_1.jpeg",
-      title: "Exercicios em python",
+      title: "Exercícios em python",
       desc: "Exercicios em python para treino",
       link: "https://github.com/vagnersnk/exercicios_em_python"
     },
     {
       image: "../images/projeto_2.jpeg",
-      title: "Exercidios em C",
+      title: "Exercícios em C",
       desc: "Exercicios em C para treino basico",
       link: "https://github.com/vagnersnk/listas-exercicios"
     },
