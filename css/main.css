@@ -4,7 +4,7 @@ body {
     padding: 0;
     height: 50vh;
     display: flex;
-    background-image: url('/images/fundo_01.jpg');
+    background-image: url('../images/fundo_01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
