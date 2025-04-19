@@ -11,6 +11,12 @@ const projects = [
       desc: "Exercicios em C para treino basico",
       link: "https://github.com/vagnersnk/listas-exercicios"
     },
+    {
+      image: "https://raw.githubusercontent.com/vagnersnk/EB_ADMIN/refs/heads/master/estoque/static/favicon.ico",
+      title: "EB ADMIN",
+      desc: "Sistema de gerenciamento de estoque",
+      link: "https://github.com/vagnersnk/EB_ADMIN"
+    },
  
   ];
   
