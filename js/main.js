@@ -18,7 +18,7 @@ const projects = [
       link: "https://github.com/vagnersnk/EB_ADMIN"
     },
     {
-      image: "https://github.com/vagnersnk/blue_lock/blob/main/images/blue_lock.jpeg",
+      image: "https://raw.githubusercontent.com/vagnersnk/blue_lock/refs/heads/main/images/blue_lock.jpeg",
       title: "BLUE LOCk",
       desc: "Sistema de gerenciamento de partidas de futebol",
       link: "https://github.com/vagnersnk/blue_lock"
